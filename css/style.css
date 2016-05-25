@@ -56,7 +56,12 @@ nav li a:hover{
 	padding : 30px;
 }
 
-.damini {
-	height : 250px;
-	width : 250px;
+.damini,.micky {
+	height : 220px;
+	width : 220px;
+}
+.navImg {
+	height: 65px;
+	width : 100px;
+	margin-top : 0px;
 }
