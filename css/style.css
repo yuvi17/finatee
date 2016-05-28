@@ -36,8 +36,8 @@ nav li a:hover{
 	font-size: 32px;
 }
 .center {
-	margin-left: auto;
-	margin-right:auto;
+	margin-left: auto !important;
+	margin-right:auto !important;
 }
 .middle-container {
 	min-height: 90vh;
@@ -71,12 +71,21 @@ nav li a:hover{
 }
 p {
 	font-family: 'EB Garamond', serif;
+	text-align: justify;
 }
 
 .flow-text {
 	font-family: 'EB Garamond', serif !important; 
 }
-h1,h2,h3,h4,h5 {
+h1,h2,h3,h4,h5,p,.flow-text {
 		font-family: 'EB Garamond', serif !important; 
+		text-align: center;
+}
+.block {
+	height: 250px;
+}
 
+.team {
+	padding-left : 100px;
+	padding-right: 100px;
 }
