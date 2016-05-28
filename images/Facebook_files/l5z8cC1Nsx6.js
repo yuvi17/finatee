@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["\/JkKL"]); }
+
+__d('VideoPivotsRegister',['Arbiter','AttachmentRelatedShareConstants','destroyOnUnload','SubscriptionsHandler'],function a(b,c,d,e,f,g){if(c.__markCompiled)c.__markCompiled();var h={registerVideoUnit:function(i,j){var k=0,l=new (c('SubscriptionsHandler'))(),m=function(){return l.release();};l.addSubscriptions(i.addListener('updateStatus',function(n){if(k<j&&n.position>=j){c('Arbiter').inform(c('AttachmentRelatedShareConstants').FBVIDEO_VIEW,{fbvideo_id:i.getVideoID(),attachment:i.getRootNode()});m();}k=n.position;}));c('destroyOnUnload')(m);}};f.exports=h;},null);

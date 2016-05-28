@@ -3,7 +3,8 @@
 <!-- Coded by Yuvraj Jaiswal for Finatee Services -->
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-	    <meta name="google-site-verification" content="8O4h2-mze7uYEZEh1kN5W0XlkLyOe1pVAbFoUtNvEQA" />
+    	 <!-- put in real verification here -->
+	    <!-- <meta name="google-site-verification" content="8O4h2-mze7uYEZEh1kN5W0XlkLyOe1pVAbFoUtNvEQA" /> -->
 	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	    <meta name="description" content="Finatee is an educational initiatve aimed at promoting self paced education through.......">
         <meta name="keywords" content="finatee, classes, e-learning, fls, fta, education, courses">
@@ -12,7 +13,8 @@
 	    <link rel="stylesheet" type="text/css" href="css/materialize.css" media="screen">
 	    <link rel="stylesheet" href="css/animate.css">
 	    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
-	    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="screen">
+	    <script src="https://use.fontawesome.com/7a84e263e7.js"></script>
+	    <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
         <title>Finatee</title>
     </head>
     <body>
@@ -22,8 +24,9 @@
 	    		    <div class="container-fluid top-container">
 	    		  		<ul class="right section hide-on-med-and-down">
 	    		  			<li><a href="#home" class="active"><p class=" navText"><i class="fa fa-home"></i> HOME</p></a></li>
-	    		  			<li><a href="views/about.html"><p class="navText"> FOUNDER'S DIARY</p></a></li>
-						    <li><a href="#contact" class="modal-trigger"><p class="navText"> CONTACT US</p></a></li>
+	    		  			<li><a href="views/about.html"><p class="navText">
+	    		  			<i class="fa fa-book"></i> FOUNDER'S DIARY</p></a></li>
+						    <li><a href="#contact" class="modal-trigger"><p class="navText"><i class="fa fa-phone"></i> CONTACT US</p></a></li>
 				  		</ul>
 				  		<ul class="left">
 				  			<li class=""><img src="images/backgrounds/logo.png" class=" navImg"/>
@@ -31,10 +34,11 @@
 				  		</ul>
 				  	</div>
 					  <ul id="slide-out" class="side-nav">
-					    <li><a href="#!">First Sidebar Link</a></li>
-					    <li><a href="#!">Second Sidebar Link</a></li>
+					    <li><a href="#home" class="active"><p class=" navText"><i class="fa fa-home"></i> HOME</p></a></li>
+	    		  			<li><a href="views/about.html"><p class="navText"> <i class="fa fa-book" ></i> FOUNDER'S DIARY</p></a></li>
+						    <li><a href="#contact" class="modal-trigger"><p class="navText"><i class="fa fa-phone"></i> CONTACT US</p></a></li>
 					  </ul>
-					  <a href="#" data-activates="slide-out" class="button-collapse">
+					  <a href="#" data-activates="slide-out" class="button-collapse right"><i class="fa fa-bars"></i>
 					  	</p></a>
 				</nav>
 			</div>
@@ -42,25 +46,52 @@
 		<div class=" middle-container valign-wrapper center" id="home">
 			<div class="row container center">
 				<div class="col s12 m12 l4 valign-wrapper">
-					<a href="views/fls.html">
-						<div class="blue darken-1 block wow slideInLeft hoverable fls z-depth-1 valign-wrapper">
-							<p class="text">FINATEE LEARNING SYSTEMS</p>
-						</div>
-					</a>
+					<ul>
+						<li>
+							<a href="views/fls.html">
+								<div class="blue darken-1 block wow slideInLeft hoverable fls z-depth-1 valign-wrapper">
+									<p class="text">FINATEE LEARNING SYSTEMS</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a  class="btn btn-primary center-align" href="https://www.facebook.com/FinateeLS/?fref=ts">
+								<i class="fa fa-facebook" aria-hidden ="true"></i>
+							</a>
+						</li>
+					</ul>
 				</div>
 				<div class="col s12 m12 l4 valign-wrapper">
-					<a href="views/fcg.html">
-						<div class="yellow darken-1 block wow fadeInUp hoverable fcg z-depth-1 valign-wrapper">
-							<p class="text">FINATEE CONSULTING GROUP</p>
-						</div>
-					</a>
+					<ul>
+						<li>
+							<a href="views/fcg.html">
+								<div class="yellow darken-1 block wow fadeInUp hoverable fcg z-depth-1 valign-wrapper">
+									<p class="text">FINATEE CONSULTING GROUP</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a  class="btn btn-primary center-align" href="https://www.facebook.com/finatee/">
+								<i class="fa fa-facebook" aria-hidden ="true"></i>
+							</a>
+						</li>
+					</ul>
 				</div>
 				<div class="col s12 m12 l4 valign-wrapper">
-					<a href="views/fta.html">
-						<div class="green darken-1 block wow slideInRight hoverable fta z-depth-1 valign-wrapper">
-							<p class="text">FINATEE TRAINING ACADEMY</p>
-						</div>
-					</a>
+					<ul>
+						<li>
+							<a href="views/fta.html">
+								<div class="green darken-1 block wow slideInRight hoverable fta z-depth-1 valign-wrapper">
+									<p class="text">FINATEE TRAINING ACADEMY</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a  class="btn btn-primary center-align" href= "https://www.facebook.com/FinateeTA/?fref=ts">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -88,8 +119,10 @@
       	<script>
 			$(document).ready(function(){
     				$('.modal-trigger').leanModal();
+    				$(".button-collapse").sideNav();
   				});
 			new WOW().init();
+
 		</script>
 	</body>
 </html>

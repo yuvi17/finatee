@@ -1,0 +1,6 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["sIqfz"]); }
+
+__d("XBirthdayEventCreatePromptXOutController",["XController"],function a(b,c,d,e,f,g){c.__markCompiled&&c.__markCompiled();f.exports=c("XController").create("\/birthdays\/event_create_prompt_xout\/",{});},null);
+__d('BirthdayEventPromptXOutController',['AsyncRequest','CSS','Event','XBirthdayEventCreatePromptXOutController'],function a(b,c,d,e,f,g){if(c.__markCompiled)c.__markCompiled();function h(i,j,k,l){'use strict';c('Event').listen(i,'click',function(){c('CSS').hide(j);new (c('AsyncRequest'))(c('XBirthdayEventCreatePromptXOutController').getURIBuilder().getURI()).setMethod('POST').setData({acontext:l,birthday_user_id:k}).send();});}h.init=function(i,j,k,l){'use strict';return new h(i,j,k,l);};f.exports=h;},null);
+__d('ReminderStoryUtils',['CSS','Event'],function a(b,c,d,e,f,g){if(c.__markCompiled)c.__markCompiled();var h={hideOnClick:function(i,j){c('Event').listen(j,'click',function(){c('CSS').hide(i);});}};f.exports=h;},null);
+__d("XBirthdayMessagePostController",["XController"],function a(b,c,d,e,f,g){c.__markCompiled&&c.__markCompiled();f.exports=c("XController").create("\/reminders\/birthday\/message\/",{});},null);

@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["i4JYH"]); }
+
+__d('FeedProfilePhotoFooter',['SubscriptionsHandler','UFICentralUpdates','URI','destroyOnUnload'],function a(b,c,d,e,f,g){if(c.__markCompiled)c.__markCompiled();function h(i,j){'use strict';var k=new (c('SubscriptionsHandler'))();k.addSubscriptions(c('UFICentralUpdates').subscribe('actor-changed',function(l,m){return i.setAttribute('href',new (c('URI'))(j).addQueryData('profile_id',m.actorID));}));c('destroyOnUnload')(function(){return k.release();});}f.exports=h;},null);

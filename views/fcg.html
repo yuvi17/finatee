@@ -12,7 +12,8 @@
 	    <link rel="stylesheet" type="text/css" href="../css/materialize.css" media="screen">
 	    <link rel="stylesheet" href="../css/animate.css">
 	    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen">
-	    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css" media="screen">
+	    <script src="https://use.fontawesome.com/7a84e263e7.js"></script>
+	    <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
         <title>Finatee</title>
     </head>
     <body>
@@ -22,19 +23,22 @@
 	    		    <div class="container-fluid top-container">
 	    		  		<ul class="right section hide-on-med-and-down">
 	    		  			<li><a href="../index.html" ><p class=" navText"><i class="fa fa-home"></i> HOME</p></a></li>
-	    		  			<li><a href="about.html" ><p class="navText"> FOUNDER'S DIARY</p></a></li>
-						    <li><a href="#contact" class="modal-trigger"><p class="navText"> CONTACT US</p></a></li>
+	    		  			<li><a href="about.html" ><p class="navText"><i class="fa fa-book"></i> FOUNDER'S DIARY</p></a></li>
+						    <li><a href="#contact" class="modal-trigger"><p class="navText"><i class="fa fa-phone"></i> CONTACT US</p></a></li>
 				  		</ul>
 				  		<ul class="left">
 				  			<li class=""><img src="../images/backgrounds/logo.png" class="img-circle navImg"/>
 				  			</li>
 				  		</ul>
 				  	</div>
-					  <ul id="slide-out" class="side-nav">
-					    <li><a href="#!">First Sidebar Link</a></li>
-					    <li><a href="#!">Second Sidebar Link</a></li>
-					  </ul>
+				  	<ul id="slide-out" class="side-nav">
+					  <li><a href="../index.html" ><p class=" navText"><i class="fa fa-home"></i> HOME</p></a></li>
+	    		  			<li><a href="about.html"><p class="navText"><i class="fa fa-book"></i> FOUNDER'S DIARY</p></a></li>
+						    <li><a href="#contact" class="modal-trigger"><p class="navText"><i class="fa fa-phone"></i> CONTACT US</p></a></li>
+					</ul>
+
 					  <a href="#" data-activates="slide-out" class="button-collapse">
+					  <i class="fa fa-bars"></i>
 					  	</p></a>
 				</nav>
 			</div>
@@ -106,6 +110,7 @@
       		new WOW().init();
 			$(document).ready(function(){
     				$('.modal-trigger').leanModal();
+    				$(".button-collapse").sideNav();
   				});
 		</script>
 	</body>
